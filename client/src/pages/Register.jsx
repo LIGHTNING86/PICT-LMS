@@ -1,7 +1,7 @@
 import { useState } from "react"
 import axios from 'axios'
 import {toast} from 'react-hot-toast'
-import { useNavigate } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import { BiUser } from 'react-icons/bi'
 import { AiOutlineUnlock } from 'react-icons/ai'
 
@@ -87,9 +87,9 @@ export default function Register() {
              <br />
              <button type='submit' className="w-full mb-4 text-[22px] rounded bg-regal-blue py-2 hover:bg-blue-700 transition-colors duration-300">Register</button>
 
-              {/* <div className="text-center">
+              <div className="text-center">
                 <span>New here? <Link to={'/login'} className="text-md text-regal-blue hover:text-blue-700 transform duration-300">Create an Account</Link></span>
-              </div> */}
+              </div>
 
             </form>
            </div>
