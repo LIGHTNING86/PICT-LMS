@@ -8,7 +8,7 @@ export default {
   theme: {
     extend: {
       colors: {
-        'regal-blue': '#11558b',
+        'regal-blue': '#1D4ED8',
       },
       fontFamily: {
         'oswald': ['Oswald', 'sans-serif'],
